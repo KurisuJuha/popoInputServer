@@ -1,11 +1,9 @@
-using System;
-using System.Linq;
 using System.Text;
 using System.Collections.ObjectModel;
 
 namespace JuhaKurisu.PopoTools.ByteSerializer
 {
-    public class DataReader
+    internal class DataReader
     {
         public ReadOnlyCollection<byte> bytes => Array.AsReadOnly(byteArray);
         public int position { get; private set; }

@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 
 namespace JuhaKurisu.PopoTools.ByteSerializer
 {
-    public class DataWriter
+    internal class DataWriter
     {
         public ReadOnlyCollection<byte> bytes => byteList.AsReadOnly();
         private List<byte> byteList = new List<byte>();
