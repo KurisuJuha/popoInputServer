@@ -10,4 +10,11 @@ public class Server
 
     private readonly Dictionary<Guid, Client> clientDictionary;
 
+    public Server(int playerCount, Dictionary<Guid, Client> clients)
+    {
+        this.playerCount = playerCount;
+        clientDictionary = new();
+        clientDictionary = clients;
+    }
+
 }
