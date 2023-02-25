@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace JuhaKurisu.PopoTools.InputSystemServer;
+namespace JuhaKurisu.PopoTools.InputSystem.Server;
 
 public class Client
 {
