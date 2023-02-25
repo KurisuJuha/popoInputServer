@@ -36,4 +36,19 @@ public class Server
         // 新しいclientをセット
         clientDictionary[clientID] = new Client(clientID, secretID, inputBytes);
     }
+
+    public byte[] CreateInputsBytes()
+    {
+        DataWriter writer = new DataWriter();
+
+        foreach (var clientID in clients.Keys)
+        {
+            // 全体で共有しているclientIDを送る
+            writer.Append(clientID);
+            // input内容を送る
+            writer.AppendWithLength(clientDictionary[clientID].input.ToArray());
+        }
+
+        return writer.bytes.ToArray();
+    }
 }
