@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "popoInputServer", "popoInputServer\popoInputServer.csproj", "{14C3F197-18F2-430D-9437-FCC1F7407547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{8AF7C949-9706-407E-BE8C-B7B48A33099B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14C3F197-18F2-430D-9437-FCC1F7407547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C3F197-18F2-430D-9437-FCC1F7407547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C3F197-18F2-430D-9437-FCC1F7407547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C3F197-18F2-430D-9437-FCC1F7407547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF7C949-9706-407E-BE8C-B7B48A33099B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF7C949-9706-407E-BE8C-B7B48A33099B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF7C949-9706-407E-BE8C-B7B48A33099B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF7C949-9706-407E-BE8C-B7B48A33099B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {765915D9-D92F-42D5-A5CB-D9636D6884A6}
+	EndGlobalSection
+EndGlobal
