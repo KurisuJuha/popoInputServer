@@ -6,7 +6,7 @@ public class Client
 {
     public readonly Guid clientID;
     public readonly Guid secretID;
-    public ReadOnlyCollection<byte> input;
+    public readonly ReadOnlyCollection<byte> input;
 
     public Client(Guid clientID, Guid secretID, byte[] bytes)
     {
